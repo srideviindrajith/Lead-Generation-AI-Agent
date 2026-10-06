@@ -22,7 +22,6 @@ export function CTASection() {
       setSubmitted(true);
       setTimeout(() => {
         setSubmitted(false);
-        setEmail('');
       }, 4000);
     }
   };
@@ -71,7 +70,7 @@ export function CTASection() {
         ) : (
           <div className="flex items-center justify-center gap-3 px-6 py-4 rounded-xl bg-signal-lime/10 border border-signal-lime/30 max-w-md mx-auto animate-bounce-in">
             <Check className="w-5 h-5 text-signal-lime" />
-            <span className="text-signal-lime font-mono text-sm">Signal grid activated — check your inbox</span>
+            <span className="text-signal-lime font-mono text-sm">Demo only: your email was not sent or stored.</span>
           </div>
         )}
 
